@@ -14,8 +14,8 @@ import EyeIcon from "/eye.svg"
         <p class="text-secondary text-[18px]">Your perfect solution for funding your desires</p>
       </div>
     </div>
-    <div className="min-h-screen p-4 w-full">
-      <div class="max-w-[500px] mt-12 mx-auto">
+    <div className=" flex items-center p-4 w-full">
+      <div class="max-w-[500px] mx-auto">
         <div class="mb-4">
           <p class="text-center text-primary font-bold text-[32px]">Welcome Back</p>
           <p class="text-center text-secondary">Enter your email address and password to access your account.</p>
