@@ -5,20 +5,25 @@ import EyeIcon from "/eye.svg"
 </script>
 
 <template>
-  <div class="flex w-full flex-auto min-w-0 lg:grid-cols-2">
+  <div class="flex w-full flex-auto min-w-0 md:grid-cols-2">
     <div class="h-screen bg-[#F8EAFF] hidden md:flex flex-col justify-between gap-12 p-6 px-12 min-w-[50%] right-0">
       <img :src="Logo" class="h-[4rem] w-fit" />
       <img class="grow w-full object-cover rounded-[24px]" :src="AuthImage" />
-      <div class="font-bold text-center flex flex-col gap-2">
+      <div class="font-bold text-center font-lora flex flex-col gap-2">
         <p class="text-[20px] text-primary">Team Achieve</p>
         <p class="text-secondary text-[18px]">Your perfect solution for funding your desires</p>
       </div>
     </div>
-    <div className=" flex items-center p-4 w-full">
+    <div className="flex flex-col justify-center p-4 w-full">
+      <div class="mx-auto md:hidden mb-6 mt-4">
+        <img :src="Logo" class="h-[4rem] w-fit" />
+
+      </div>
       <div class="max-w-[500px] mx-auto">
         <div class="mb-4">
-          <p class="text-center text-primary font-bold text-[32px]">Welcome Back</p>
-          <p class="text-center text-secondary">Enter your email address and password to access your account.</p>
+          <p class="text-center font-lora text-primary font-bold text-[24px] md:text-[32px]">Welcome Back</p>
+          <p class="text-center text-[14px] md:text-[16px] text-secondary">Enter your email address and password to
+            access your account.</p>
         </div>
         <form>
           <div class="flex flex-col gap-6">
