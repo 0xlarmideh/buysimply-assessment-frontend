@@ -29,11 +29,12 @@ import EyeIcon from "/eye.svg"
             </div>
             <div class="flex flex-col gap-1">
               <label class="required" for="email">Password</label>
-              <div class="flex border border-[#DDDDDD] items-center rounded-md "><input class="p-2 text-[14px] grow"
-                  type="password" id="password" required name="password" placeholder="Enter your password">
-                <img :src="EyeIcon" class="bg-[#F7F7F7] w-[14px] border-l" />
+              <div class="flex border overflow-hidden border-[#DDDDDD] items-center rounded-md "><input
+                  class="p-2 text-[14px] grow" type="password" id="password" required name="password"
+                  placeholder="Enter your password">
+                <div class="border-l bg-[#F7F7F7] p-2 py-3"><img :src="EyeIcon" class="w-[14px]" /></div>
               </div>
-              <div class="flex justify-between">
+              <div class=" flex justify-between">
                 <div class="flex  gap-2">
                   <input type="checkbox" id="rememberMe" name="rememberMe">
                   <label class="text-[14px] text-secondary" for="email">Remember me</label>
